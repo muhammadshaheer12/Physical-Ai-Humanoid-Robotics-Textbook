@@ -1,4 +1,4 @@
-# Physical AI & Humanoid Robotics Textbook Assets
+# Physical AI & Humanoid Robotics Textbook 
 
 This repository contains all the code examples, URDF models, simulation worlds, configuration files, and other assets required to follow along with the "Physical AI & Humanoid Robotics Textbook".
 
