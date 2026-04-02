@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://muhammadshaheer12.github.io/Physical-Ai-Humanoid-Robotics-Textbook/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -44,9 +44,9 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/YourOrg/physical-ai-robotics-textbook/tree/main/robotics-ai-book/',
+            'https://github.com/YourOrg/physical-ai-robotics-textbook/tree/main/robotics-ai-book/docs/',
         },
-        blog: false, // Disable the blog plugin
+        blog: false, // Disable the blog plugin as it's not needed for the textbook
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -60,7 +60,75 @@ const config: Config = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
-
+    navbar: {
+      title: 'Physical AI & Humanoid Robotics Textbook',
+      logo: {
+        alt: 'Robotics Textbook Logo',
+        src: 'img/logo.svg',
+      },
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Textbook',
+        },
+        {
+          href: 'https://github.com/YourOrg/physical-ai-robotics-textbook',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Modules',
+          items: [
+            {
+              label: 'Module 1: ROS 2',
+              to: '/docs/module-1-ros2',
+            },
+            {
+              label: 'Module 2: Simulation',
+              to: '/docs/module-2-simulation',
+            },
+            {
+              label: 'Module 3: NVIDIA Isaac',
+              to: '/docs/module-3-isaac',
+            },
+            {
+              label: 'Module 4: VLA',
+              to: '/docs/module-4-vla',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'ROS Community',
+              href: 'https://discourse.ros.org/',
+            },
+            {
+              label: 'NVIDIA Developer',
+              href: 'https://developer.nvidia.com/embedded/learn',
+            },
+          ],
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'GitHub Repository',
+              href: 'https://github.com/YourOrg/physical-ai-robotics-textbook',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics Textbook. Built with Docusaurus.`,
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
