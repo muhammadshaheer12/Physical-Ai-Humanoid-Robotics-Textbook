@@ -5,7 +5,7 @@ title: Introduction
 
 # Welcome to the Physical AI & Humanoid Robotics Textbook
 
-This textbook is your gateway into the exciting and rapidly evolving field of **Physical AI**—artificial intelligence systems that operate within the real, physical world through embodied intelligence. Our central theme is bridging the gap between the **digital brain** (AI models, algorithms, and reasoning) and the **physical body** (robots, sensors, actuators, and environments). Unlike traditional AI confined to software, this project emphasizes intelligence that perceives, reasons, and acts under real-world physical constraints.
+This textbook is your gateway into the exciting and rapidly evolving field of **Physical AI**—artificial intelligence systems that operate within the real, physical world through embodied intelligence. Our central theme is bridging the gap between the **digital brain** (AI models, algorithms, and reasoning) and the **physical body** (robots, sensors, actuators, and environments). Unlike traditional AI that is confined to software, this textbook emphasizes intelligence that perceives, reasons, and acts under real-world physical constraints.
 
 ## Goal of the Textbook
 
@@ -31,5 +31,4 @@ Upon successful completion of this textbook, you will be able to:
 -   **Develop Embodied AI Systems**: Gain hands-on experience building end-to-end embodied AI systems that perceive, reason, and act in the physical world.
 -   **Build a Portfolio Project**: Complete a capstone project demonstrating integrated AI and robotics skills, suitable for professional or academic advancement.
 
-Let's embark on this journey to build the future of intelligent robots!
-
+**Let's begin our exploration into embodied AI!**
