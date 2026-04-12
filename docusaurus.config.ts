@@ -2,28 +2,21 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
   title: 'Physical AI & Humanoid Robotics Textbook',
   tagline: 'Bridging the digital brain with the physical body.',
   favicon: 'img/favicon.ico',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
-
   // Set the production url of your site here
-  url: 'https://muhammadshaheer12.github.io/Physical-Ai-Humanoid-Robotics-Textbook/',
+  url: 'https://muhammadshaheer12.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/Physical-Ai-Humanoid-Robotics-Textbook/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'YourOrg', // Usually your GitHub org/user name.
-  projectName: 'physical-ai-robotics-textbook', // Usually your repo name.
+  organizationName: 'muhammadshaheer12', // Your GitHub org/user name.
+  projectName: 'Physical-Ai-Humanoid-Robotics-Textbook', // Your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -44,7 +37,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/YourOrg/physical-ai-robotics-textbook/tree/main/robotics-ai-book/docs/',
+            'https://github.com/muhammadshaheer12/Physical-Ai-Humanoid-Robotics-Textbook/tree/main/',
         },
         blog: false, // Disable the blog plugin as it's not needed for the textbook
         theme: {
@@ -74,7 +67,7 @@ const config: Config = {
           label: 'Textbook',
         },
         {
-          href: 'https://github.com/YourOrg/physical-ai-robotics-textbook',
+          href: 'https://github.com/muhammadshaheer12/Physical-Ai-Humanoid-Robotics-Textbook',
           label: 'GitHub',
           position: 'right',
         },
@@ -122,7 +115,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub Repository',
-              href: 'https://github.com/YourOrg/physical-ai-robotics-textbook',
+              href: 'https://github.com/muhammadshaheer12/Physical-Ai-Humanoid-Robotics-Textbook',
             },
           ],
         },
