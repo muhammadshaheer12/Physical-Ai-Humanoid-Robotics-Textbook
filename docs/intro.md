@@ -31,4 +31,3 @@ Upon successful completion of this textbook, you will be able to:
 -   **Develop Embodied AI Systems**: Gain hands-on experience building end-to-end embodied AI systems that perceive, reason, and act in the physical world.
 -   **Build a Portfolio Project**: Complete a capstone project demonstrating integrated AI and robotics skills, suitable for professional or academic advancement.
 
-**Let's begin our exploration into embodied AI!**
